@@ -10,17 +10,35 @@ export default function App() {
           <img
             src={logo}
             className="App-logo
-       img-fluid"
+            img-fluid"
             alt="logo"
           />
-          <h1>Dictionary</h1>
+          <h1>DICTIONARY</h1>
           <hr />
         </header>
         <main>
           <Dictionary />
         </main>
         <hr />
-        <footer className="App-footer">Coded by Myrta Rüegger</footer>
+        <footer className="App-footer">
+          2021 by Myrta Rüegger.
+          {` Open-source Code: `}
+          <a
+            href="https://github.com/Myrtaru/react-dictionary"
+            target="-blank"
+            rel="noopener noreferrer"
+          >
+            <u>GitHub,</u>
+          </a>
+          {` Hosting: `}
+          <a
+            href="https://keen-darwin-8eb240.netlify.app/"
+            target="-blank"
+            rel="noopener noreferrer"
+          >
+            <u>Netlify</u>
+          </a>
+        </footer>
       </div>
     </div>
   );

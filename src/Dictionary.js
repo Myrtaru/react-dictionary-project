@@ -23,16 +23,22 @@ setKeyword(event.target.value);
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          className="Search-form"
-          type="search"
-          placeholder="Enter a keyword"
-          onChange={Keywordentering}
-          autoFocus="on"
-        />
-      </form>
-      <Results results={results} />
+      <div className="row">
+        <form onSubmit={search}>
+          <input
+            className="Search-form"
+            type="search"
+            placeholder="Enter a word"
+            onChange={Keywordentering}
+            autoFocus="on"
+          />
+          <button type="submit" className="Button">
+            Search
+          </button>
+        </form>
+
+        <Results results={results} />
+      </div>
     </div>
   );
 }
