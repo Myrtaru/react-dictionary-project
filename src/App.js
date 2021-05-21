@@ -1,17 +1,25 @@
+import Dictionary from "./Dictionary";
 import logo from "./logo.png";
-import './App.css';
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-       <header className="Header">
-         <img src={logo} className="Logo
-       img-fluid" alt="logo"/>
-       <h1>Dictionary</h1>
-        <a href="/" className="btn btn-primary shadow">
-          Search
-         </a>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img
+            src={logo}
+            className="App-logo
+       img-fluid"
+            alt="logo"
+          />
+          <h1>Dictionary</h1>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">Coded by Myrta Rüegger</footer>
+      </div>
     </div>
   );
 }

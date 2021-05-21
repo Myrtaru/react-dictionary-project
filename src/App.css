@@ -1,9 +1,15 @@
-.Header {
+h1 {
+  text-align: center;
+}
+.App-header {
   margin: 1em 0;
 }
-
-.Logo {
+.App-logo {
   max-width: 200px;
   display: block;
   margin: 0 auto;
+  }
+.App-footer {
+  text-align: center;
+  margin:2em 0;
   }
