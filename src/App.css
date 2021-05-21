@@ -1,5 +1,13 @@
+
 h1 {
   text-align: center;
+  color:rgb(7, 28, 122);
+}
+footer{
+color:rgb(7, 28, 122);
+}
+.container {
+max-width: 800px;
 }
 .App-header {
   margin: 1em 0;

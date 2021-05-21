@@ -14,10 +14,12 @@ export default function App() {
             alt="logo"
           />
           <h1>Dictionary</h1>
+          <hr />
         </header>
         <main>
           <Dictionary />
         </main>
+        <hr />
         <footer className="App-footer">Coded by Myrta Rüegger</footer>
       </div>
     </div>

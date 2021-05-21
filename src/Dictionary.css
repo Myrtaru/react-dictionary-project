@@ -1,3 +1,6 @@
-input {
-  display: inline-block;
+.Search-form{
+  display: block;
+  
+  padding: 6px;
+  color:rgb(32, 47, 117);
 }
